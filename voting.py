@@ -1,3 +1,5 @@
+##Solamente voy a agregar un pequeño comentario para probar el git
+
 def generatePreferences(ws):
     """This function iterates over every row of the worksheet creating a comprehensive list with its values.
     -Maps a list with the alternatives with its value in a dictionary
