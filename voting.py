@@ -1,8 +1,7 @@
 ##Solamente voy a agregar un pequeño comentario para probar el git
 
 def generatePreferences(ws):
-   """Adding a generic docstring"""
-   
+       
     preference_dict={}
     
     for i in range(1,ws.max_row+1):
