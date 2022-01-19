@@ -3,6 +3,7 @@
 def generatePreferences(ws):
        
     preference_dict={}
+    #comentario 2
     
     for i in range(1,ws.max_row+1):
         values= [ws.cell(row=i, column=x).value for x in range(1,len(ws[1])+1)]
