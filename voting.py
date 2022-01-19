@@ -1,6 +1,7 @@
 ##Solamente voy a agregar un pequeño comentario para probar el git
 
 def generatePreferences(ws):
+       #comentario 1
        
     preference_dict={}
     
