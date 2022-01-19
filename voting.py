@@ -1,21 +1,7 @@
 ##Solamente voy a agregar un pequeño comentario para probar el git
 
 def generatePreferences(ws):
-    """This function iterates over every row of the worksheet creating a comprehensive list with its values.
-    -Maps a list with the alternatives with its value in a dictionary
-    -Creates a list of tuples so tuples can be easily sorted.
-    -First the list of tuples is ordered by the alternatives. So when two alternatives have the same value
-    the alternative with higher rank will go first in order.
-    -Then the list of tuples is ordered by the values, so the values with higher rank are first in order.
-    -Once the list of tuples is ordered, a list of only the alternatives is created
-    -This list is appended to the preference dictionary.
-
-    Return a dictionary with agent and its corresponding list of preferences.
-    
-    Keyword arguments:
-    ws -- data obtained from the openpyxl
-    
-    """
+   
     preference_dict={}
     
     for i in range(1,ws.max_row+1):
